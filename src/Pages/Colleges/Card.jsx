@@ -18,7 +18,7 @@ const Card = ({item}) => {
                <p>Research Item : {item.research_count}</p>
     
                 <div className="card-actions justify-end">
-                <Link to={`/toydetails/${item._id}`}>
+                <Link to={`/collegedetails/${item._id}`}>
                       <button className="btn btn-accent">Details</button>
                </Link>
                 </div>

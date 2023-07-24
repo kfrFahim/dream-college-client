@@ -5,6 +5,7 @@ import Footer from "../Pages/Shared/Footer/Footer";
 import Main from "../Layout/Main";
 import Colleges from "../Pages/Colleges/Colleges";
 import Home from "../Pages/Home/Home/Home";
+import CollegeDetails from "../Pages/CollegeDetails/CollegeDetails";
 
    export const router = createBrowserRouter([
      {
@@ -18,8 +19,13 @@ import Home from "../Pages/Home/Home/Home";
         {
           path:"/colleges",
           element: <Colleges></Colleges>
-        }
+        },
+        {
+          path: "/collegedetails/:id",
+          element: <CollegeDetails></CollegeDetails>
+         }
        ]
      },
+    
      
    ]);

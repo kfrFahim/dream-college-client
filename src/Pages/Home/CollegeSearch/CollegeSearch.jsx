@@ -1,9 +1,10 @@
-import React from "react";
-import Container from "../../../Componentss/Container";
+import React from 'react';
+import Container from '../../../Componentss/Container';
 
-const JobSearch = () => {
-  return (
-    <div>
+const CollegeSearch = () => {
+     return (
+          
+               <div>
       <Container>
         <div className="p-2 text-center">
           <input
@@ -17,9 +18,8 @@ const JobSearch = () => {
 
       </Container>
     </div>
-  );
+          
+     );
 };
 
-export default JobSearch;
-
-
+export default CollegeSearch;

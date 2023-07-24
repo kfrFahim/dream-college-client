@@ -1,11 +1,11 @@
 import React from 'react';
-import JobSearch from '../JobSearch/JobSearch';
 import Gallery from '../Gallery/Gallery';
+import CollegeSearch from '../CollegeSearch/CollegeSearch';
 
 const Home = () => {
      return (
           <div className="pt-20" >
-               <JobSearch></JobSearch>
+               <CollegeSearch></CollegeSearch>
                <Gallery></Gallery>
           </div>
      );
