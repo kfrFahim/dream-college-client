@@ -9,16 +9,15 @@ import "swiper/css";
 import "swiper/css/navigation";
 import Container from "../../../Componentss/Container";
 
-import { Navigation } from 'swiper/modules';
+import { Navigation } from "swiper/modules";
 // import Swiper and modules styles
-import 'swiper/css/pagination';
-
+import "swiper/css/pagination";
 
 const Reviews = () => {
   const [reviews, setReviews] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://dream-college-server-kappa.vercel.app/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
@@ -26,8 +25,6 @@ const Reviews = () => {
   return (
     <div className="my-8 bg-gray-100 p-3 rounded shadow">
       <Container>
-       
-
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
           {reviews.map((review) => (
             <SwiperSlide key={review._id}>

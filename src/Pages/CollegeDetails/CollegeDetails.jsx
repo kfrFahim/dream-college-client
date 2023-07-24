@@ -8,7 +8,7 @@ const CollegeDetails = () => {
   const [colleges, setColleges] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/colleges/${id}`)
+    fetch(`https://dream-college-server-kappa.vercel.app/colleges/${id}`)
       .then((res) => res.json())
       .then((data) => setColleges(data));
   });
@@ -34,7 +34,7 @@ const CollegeDetails = () => {
               <p>Admission date : {colleges.admission_date} </p>
               <p>Research Item : {colleges.research_count}</p>
               <div>
-              <span className="font-bold">Events :</span>
+                <span className="font-bold">Events :</span>
                 {colleges.details?.events.map((event, i) => (
                   <p key={i}> {event} </p>
                 ))}{" "}
