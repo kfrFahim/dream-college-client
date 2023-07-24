@@ -115,6 +115,7 @@ const Navbar = () => {
                     src={user && user.photoURL ? user.photoURL : avatarImg}
                     alt="profile"
                   />
+                  <p>{user.displayName}</p>
                 </div>
               </>
             ) : (

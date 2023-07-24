@@ -1,0 +1,29 @@
+ [
+       {
+         "name": "University of ABC",
+         "details": "I loved the campus atmosphere and the supportive faculty. The courses were challenging and engaging. Overall, a great experience!",
+         "rating": 4.8
+       },
+       {
+         "name": "XYZ State University",
+         "details": "The college has a beautiful campus, but some of the professors were not very helpful. However, the extracurricular activities were fantastic.",
+         "rating": 3.5
+       },
+       {
+         "name": "ABC College of Engineering",
+         "details": "The academic programs were rigorous, but the facilities need improvement. The career services were quite helpful.",
+         "rating": 3.9
+       },
+       {
+         "name": "City College of Arts",
+         "details": "The campus is modern, and the faculty is highly knowledgeable. The research opportunities were outstanding.",
+         "rating": 4.5
+       },
+       {
+         "name": "Science & Technology Institute",
+         "details": "I had a mixed experience. Some departments were excellent, while others lacked proper resources. The social scene was enjoyable.",
+         "rating": 3.2
+       }
+     ]
+   
+   
