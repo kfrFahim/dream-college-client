@@ -34,13 +34,13 @@ const CollegeDetails = () => {
               <p>Admission date : {colleges.admission_date} </p>
               <p>Research Item : {colleges.research_count}</p>
               <div>
-                Events :{" "}
+              <span className="font-bold">Events :</span>
                 {colleges.details?.events.map((event, i) => (
                   <p key={i}> {event} </p>
                 ))}{" "}
               </div>
               <div>
-                Sports :{" "}
+                <span className="font-bold">Sports :</span>{" "}
                 {colleges.details?.sports_facilities.map((event, i) => (
                   <p key={i}> {event} </p>
                 ))}{" "}
