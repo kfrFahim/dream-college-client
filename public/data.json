@@ -1,0 +1,175 @@
+ [
+       {
+         "college_name": "University of ABC",
+         "college_image": "https://prograd.ufabc.edu.br/images/ufabc_campus_sa.jpg",
+         "college_rating": 4.5,
+         "admission_date": "2023-09-01",
+         "research_count": 120,
+         "details": {
+           "events": [
+             "Annual Science Fair",
+             "Cultural Fest",
+             "Entrepreneurship Summit"
+           ],
+           "sports_facilities": [
+             "Indoor Basketball Court",
+             "Football Ground",
+             "Swimming Pool"
+           ]
+         }
+       },
+       {
+         "college_name": "XYZ State University",
+         "college_image": "https://media.licdn.com/dms/image/D4D10AQGbyGYNIWXwqg/image-shrink_1280/0/1689201481390?e=1690236000&v=beta&t=W8ZESF-CrkwR3PDpb1n8tGQK8VrbBKeljepNmrNLKxQ",
+         "college_rating": 4.2,
+         "admission_date": "2023-08-15",
+         "research_count": 80,
+         "details": {
+           "events": [
+             "Tech Expo",
+             "Literary Festival",
+             "Music Carnival"
+           ],
+           "sports_facilities": [
+             "Tennis Courts",
+             "Track and Field",
+             "Gymnasium"
+           ]
+         }
+       },
+       {
+         "college_name": "ABC College of Engineering",
+         "college_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb82IiGDPvOjvqYYX5P2b7ZullNqgaU83AdkxNE4e7a9VNAqujdQ-kB3eATFTJhew9Wjw&usqp=CAU",
+         "college_rating": 4.8,
+         "admission_date": "2023-07-30",
+         "research_count": 150,
+         "details": {
+           "events": [
+             "Hackathon",
+             "Robotics Expo",
+             "Cultural Night"
+           ],
+           "sports_facilities": [
+             "Cricket Ground",
+             "Badminton Courts",
+             "Volleyball Court"
+           ]
+         }
+       },
+       {
+         "college_name": "City College of Arts",
+         "college_image": "https://i0.wp.com/www.mbamission.com/blog/wp-content/uploads/2016/03/Ohio-State-Fisher-College.jpg?ssl=1",
+         "college_rating": 4.0,
+         "admission_date": "2023-09-10",
+         "research_count": 50,
+         "details": {
+           "events": [
+             "Art Exhibition",
+             "Film Festival",
+             "Dance Competition"
+           ],
+           "sports_facilities": [
+             "Table Tennis",
+             "Squash Courts",
+             "Yoga Studio"
+           ]
+         }
+       },
+       {
+         "college_name": "Science & Technology Institute",
+         "college_image": "https://images.shiksha.com/mediadata/images/1491275658phpLPINfN.jpeg",
+         "college_rating": 4.6,
+         "admission_date": "2023-08-20",
+         "research_count": 100,
+         "details": {
+           "events": [
+             "Science Symposium",
+             "Tech Conference",
+             "Innovation Expo"
+           ],
+           "sports_facilities": [
+             "Basketball Courts",
+             "Swimming Pool",
+             "Athletics Track"
+           ]
+         }
+       },
+       {
+         "college_name": "Business Academy",
+         "college_image": "https://media.getmyuni.com/azure/college-image/big/indus-business-academy-iba-bangalore.jpg",
+         "college_rating": 4.3,
+         "admission_date": "2023-09-05",
+         "research_count": 70,
+         "details": {
+           "events": [
+             "Business Summit",
+             "Economics Forum",
+             "Marketing Workshop"
+           ],
+           "sports_facilities": [
+             "Golf Course",
+             "Soccer Field",
+             "Fitness Center"
+           ]
+         }
+       },
+       {
+         "college_name": "Medical College of Excellence",
+         "college_image": "https://img6.fresherslive.com/latestnews/2023/07/best-medical-colleges-in-bangladesh-2023-64af8126d861c95209293-900.webp",
+         "college_rating": 4.9,
+         "admission_date": "2023-08-25",
+         "research_count": 200,
+         "details": {
+           "events": [
+             "Medical Conference",
+             "Healthcare Symposium",
+             "Surgical Workshop"
+           ],
+           "sports_facilities": [
+             "Tennis Courts",
+             "Swimming Pool",
+             "Gymnasium"
+           ]
+         }
+       },
+       {
+         "college_name": "Fine Arts University",
+         "college_image": "https://3.imimg.com/data3/FB/GT/MY-6462995/admission-guidance-for-krishna-medical-college-karad-500x500.jpg",
+         "college_rating": 4.4,
+         "admission_date": "2023-08-10",
+         "research_count": 60,
+         "details": {
+           "events": [
+             "Fine Arts Exhibition",
+             "Theater Festival",
+             "Design Workshop"
+           ],
+           "sports_facilities": [
+             "Indoor Basketball Court",
+             "Dance Studio",
+             "Yoga Studio"
+           ]
+         }
+       },
+       {
+         "college_name": "Engineering & Technology University",
+         "college_image": "https://admissionadvice.in/wp-content/uploads/2021/02/Dumka-Medical-College-Dumka.jpg",
+         "college_rating": 4.7,
+         "admission_date": "2023-09-15",
+         "research_count": 130,
+         "details": {
+           "events": [
+             "Tech Fest",
+             "Robotics Challenge",
+             "Innovation Fair"
+           ],
+           "sports_facilities": [
+             "Cricket Ground",
+             "Football Ground",
+             "Athletics Track"
+           ]
+         }
+       }
+     ]
+   
+   
