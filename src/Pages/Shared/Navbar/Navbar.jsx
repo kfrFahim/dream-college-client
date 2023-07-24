@@ -1,35 +1,36 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-// import { AuthContext } from "../../../providers/AuthProvider";
+
 // import avatarImg from "../../../assets/avatar/placeholder.jpg";
 import logo from "../../../assets/logo/logo.png";
 import Container from "../../../Componentss/Container";
+import { AuthContext } from "../../../Provider/AuthProvider";
 
 const Navbar = () => {
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
-  );
+  // const [theme, setTheme] = useState(
+  //   localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
+  // );
 
-  useEffect(() => {
-    localStorage.setItem("theme", theme);
-    const localTheme = localStorage.getItem("theme");
-    document.querySelector("html").setAttribute("data-theme", localTheme);
-  }, [theme]);
+  // useEffect(() => {
+  //   localStorage.setItem("theme", theme);
+  //   const localTheme = localStorage.getItem("theme");
+  //   document.querySelector("html").setAttribute("data-theme", localTheme);
+  // }, [theme]);
 
-  const handleToggle = (e) => {
-    if (e.target.checked) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-  };
-
-  // const { user, logOut } = useContext(AuthContext);
-
-
-  // const handleLogOut = () => {
-  //   logOut();
+  // const handleToggle = (e) => {
+  //   if (e.target.checked) {
+  //     setTheme("dark");
+  //   } else {
+  //     setTheme("light");
+  //   }
   // };
+
+  const { user, logOut } = useContext(AuthContext);
+
+
+  const handleLogOut = () => {
+    logOut();
+  };
 
   return (
     <div className="fixed w-full z-10">
@@ -98,7 +99,34 @@ const Navbar = () => {
                 </li>
 
             </ul>
-          </div>
+            </div>
+            <div className="navbar-end">
+            {user ? (
+              <>
+                {" "}
+                <div className="flex gap-1">
+                  <button className="btn" onClick={handleLogOut}>
+                    {" "}
+                    Logout{" "}
+                  </button>
+                  <img
+                    title={user.displayName}
+                    className="rounded-full w-12 h-12"
+                    src={user && user.photoURL ? user.photoURL : avatarImg}
+                    alt="profile"
+                  />
+                </div>
+              </>
+            ) : (
+              <>
+                <button className="btn">
+                  <Link to="/login"> Login </Link>
+                </button>
+              </>
+            )}
+</div>
+          
+         
          
         </div>
       </Container>

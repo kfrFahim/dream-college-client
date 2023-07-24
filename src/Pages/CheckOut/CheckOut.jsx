@@ -27,6 +27,7 @@ const CheckOut = () => {
        })
          .then((res) => res.json())
          .then((result) => console.log(result));
+         reset();
          return false;
      };
 
@@ -50,7 +51,7 @@ const CheckOut = () => {
         // value={user?.name}
         placeholder="Subject"
         defaultValue=""
-        {...register("sellerName")}
+        {...register("subject")}
       />
 
       <input
@@ -66,7 +67,7 @@ const CheckOut = () => {
         // value={user?.email}
         className="text-black font-semibold rounded shadow border border-gray-400 bg-gray-200  p-3"
         placeholder="Candidate Email"
-        {...register("postedBy", { required: true })}
+        {...register("email")}
       />
       <input
         type="number"
